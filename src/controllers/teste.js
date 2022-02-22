@@ -1,6 +1,6 @@
 const TestController = {
     home(req, res) {
-        res.send('home');
+        res.sendError('Erro na base de dados', 500);
     }
 }
 
